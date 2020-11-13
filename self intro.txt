@@ -1,0 +1,58 @@
+1 SELF INTRODUCTION :
+               
+Myself Ramesh and i have been holding my b-tech graduation.i have 3 years of experience in IT industry and I started my professional career with TCS and I had been working there for around 2 years and then I switched to olr and im working here for 1 year as a devops and AWS cloud engineer.
+ 
+Currently i am working under the  Xstore retail and ecommarce project  and we are developing the oss(operational support systems) environment applications like net cool, infovista ,cramer. I am the part of devops team having the size of 5 members including  one team lead. coming to my role in this project, its build and release engineer revolving over 24/7 shifts. We handle entire application build and release management process.
+ 
+Moving to the  working and known technologies, i have good knowledge on source code management tool git ,bulid tool maven, continious integration and deployment tool jenkins, configuration management tool ansible. coming to the monitoring tools i have good knowledge on nagios and cloud watch. Coming to the static code analysis and code coverage tool sonarqube i have good knowledge on it. And then the backup repositories jfrog and nexus, which are used for backing up the binaries, i have good knowledge on them.
+       
+Cominig to the containerization tool, I have knowledge on docker and for the container orchestration, I have basic knowledge on kubernetes. We are using ticketing tool service now.
+
+2   roles and responsibilities :
+
+git
+ 
+1. creating branches like feature, release and hot fix for new releases and up gradation and for bug fixing of existing application.  
+2. creating user accounts and repositories.
+3. administration of version control systems
+                --- backups, rollbacks,
+
+build and releases
+
+1. creating scheduled and manual ci jobs
+2. creating accounts for developers
+3. administration activities like backups , plugin installation , integrating third party tools and configuring them.
+4. Follow up with the dev teams on ci build issues.
+5. monitoring the build jobs.
+
+release process
+for new releases we will follow releases calender and we do the builds by following the same
+
+1. major releases : these releases are long term and original application releases.this will take  in between 3-6 months.
+2. minor releases : these release are for doing the enhancement for upgradation of existing application. this will take around 1-2 weeks
+3. hotfix release : these are the releases for bug fixing. These are to be done within 1-2 days if bugs are thrown by the application
+
+
+errors:    
+1. git may go down/ access issues
+2. compilation errors
+3. server down (network issue)
+4. server disk full
+5. permission issue
+
+preventive actions:
+
+we will set pre build check list for prevention of build failures
+
+1. we will circulate the email to not to touch git.and locking the branches at build time.
+2. by conducting the mock builds
+3. sever/network down will be checked before starting the  build .
+4. by running server verification script
+-ping
+-disk space
+-services should run from the root.
+-checking the versions
+-stop services
+ 
+By implementing the above script 90% of the issues can be sorted out.    
+versioning
